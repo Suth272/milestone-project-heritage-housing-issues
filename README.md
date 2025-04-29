@@ -90,12 +90,22 @@ Although your friend has an excellent understanding of property prices in her ow
     * We will plot the main attributes against the sale prices of the houses to visualize insights.
 
 * Buisness Requirement 2: Predicting house sale prices
-    * we want to predict the house sale prices, so we will build a regression model to do this
+    * we want to predict the house sale prices, so we will build a regression model to do this.
     * This will allow the client to estimate the market value of her 4 inherited houses and predict the sale prices of any other houses in Iowa.
 
 ## ML Business Case
 
-* In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
+#### Regression Model
+
+* The model objective is to predict the sale price of houses in Ames, Iowa using property features, so that the client can accurately price the four inherited houses and assess future properties without relying on local market guesswork.
+* The model provides accurate and reliable sale price predictions for the client's four houses. The client can also use the model through an interactive web app to input house details and receive price estimates instantly.
+* The model success metrics are an R2 score of at least 0.75 on the train and test set.
+* The model will be considered a failure if the R2 score is lower than 0.75 on the train and test set.
+* The model outputs a predicted sale price for a house given its features. These predictions are shown on the dashboard both for the client's four houses and for any custom house entered by the user.
+* Heuristics: We assume that historical house sale data from Ames can help predict current or future house prices. This is based on the idea that features like house size, quality, and condition generally stay important over time and influence market value.
+* The training data has come from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/housing-prices-data) and has around 1400 records of real house sales in Ames, Iowa.
+    * Training data target: House sale price
+    * Features: All other variables
 
 ## Dashboard Design
 
