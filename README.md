@@ -85,7 +85,13 @@ Although your friend has an excellent understanding of property prices in her ow
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
-* List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
+* Buisness Requirement 1: Data visualization and Correlation Study
+    * We will inspect the house attributes data and conduct a correlation study to understand better on how the attributes are correlated to the sale price of the house.
+    * We will plot the main attributes against the sale prices of the houses to visualize insights.
+
+* Buisness Requirement 2: Predicting house sale prices
+    * we want to predict the house sale prices, so we will build a regression model to do this
+    * This will allow the client to estimate the market value of her 4 inherited houses and predict the sale prices of any other houses in Iowa.
 
 ## ML Business Case
 
