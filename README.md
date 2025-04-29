@@ -109,8 +109,13 @@ Although your friend has an excellent understanding of property prices in her ow
 
 ## Dashboard Design
 
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items that your dashboard library supports.
-* Eventually, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but eventually you needed to use another plot type)
+### Page 1: Quick Project Summary
+
+### Page 2: Sale Price Study
+
+### Page 3: House Sale Price UI
+
+### Page 4: ML: Product Sale Price
 
 ## Unfixed Bugs
 
