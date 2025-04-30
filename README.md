@@ -1,42 +1,4 @@
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-## Template Instructions
-
-Welcome,
-
-This is the Code Institute student template for the Heritage Housing project option in Predictive Analytics. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
-
-You can safely delete the Template Instructions section of this README.md file,  and modify the remaining paragraphs for your own project. Please do read the Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use.
-
-## How to use this repo
-
-1. Use this template to create your GitHub project repo
-
-2. In your new repo click on the green Code button
-
-3. Then, from the Codespaces tab, click Create codespace on main.
-
-5. Wait for the workspace to open. This can take a few minutes.
-
-6. Open a new terminal and `pip3 install -r requirements.txt`
-
-7. Open the jupyter_notebooks directory and click on the notebook you want to open.
-
-8. Click the kernel button and choose Python Environments.
-
-Note that the kernel says Python 3.12.1 as it inherits from the workspace so it will be Python-3.12.1 as installed by Codespaces. To confirm this you can use `! python --version` in a notebook code cell.
-
-## Cloud IDE Reminders
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In your Cloud IDE, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with *Regenerate API Key*.
+#### FYI: The project is complete due to unforseen circumstances. Look at unfixed bugs.
 
 ## Dataset Content
 
@@ -78,10 +40,6 @@ Although your friend has an excellent understanding of property prices in her ow
 
 * 1 - The client is interested in discovering how the house attributes correlate with the sale price. Therefore, the client expects data visualisations of the correlated variables against the sale price to show that.
 * 2 - The client is interested in predicting the house sale price from her four inherited houses and any other house in Ames, Iowa.
-
-## Hypothesis and how to validate?
-
-* List here your project hypothesis(es) and how you envision validating it (them).
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
@@ -135,13 +93,14 @@ message that informs the predicted sale price for that particular house.
 
 ## Unfixed Bugs
 
-* You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not valid reason to leave bugs unfixed.
+* This is mainly for the assessors at code institute.
+* My project is incomplete due to computer issues and frustration with my computer and loss of my project so close to the deadline led to this incomplete project.
 
 ## Deployment
 
 ### Heroku
 
-* The App live link is: <https://YOUR_APP_NAME.herokuapp.com/>
+* The App live link is: <https://suth-heritage-housing-issues-ccf1a198931e.herokuapp.com>
 * Set the .python-version Python version to a [Heroku-24](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
 * The project was deployed to Heroku using the following steps.
 
@@ -154,26 +113,20 @@ message that informs the predicted sale price for that particular house.
 
 ## Main Data Analysis and Machine Learning Libraries
 
-* Here you should list the libraries you used in the project and provide example(s) of how you used these libraries.
+* numpy==1.26.1
+* pandas==2.1.1
+* matplotlib==3.8.0
+* seaborn==0.13.2
+* plotly==5.17.0
+* streamlit==1.40.2
+* feature-engine==1.6.1
+* imbalanced-learn==0.11.0
+* scikit-learn==1.3.1
 
 ## Credits
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-* You can break the credits section up into Content and Media, depending on what you have included in your project.
+* The project was forked from Code Institute's template, which can be found [here](https://github.com/Code-Institute-Solutions/milestone-project-heritage-housing-issues)
+* The dataset used for this project is from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/housing-prices-data)
+* Snippets of code was taken from Code Institute's [churnometer](https://github.com/Code-Institute-Solutions/churnometer/tree/main) project, but was modified and adapted for my project.
 
-### Content
-
-* The text for the Home page was taken from Wikipedia Article A
-* Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-* The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-* The photos used on the home and sign-up page are from This Open Source site
-* The images used for the gallery page were taken from this other open-source site
-
-## Acknowledgements (optional)
-
-
-* In case you would like to thank the people that provided support through this project.
 
