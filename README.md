@@ -127,7 +127,7 @@ Although your friend has an excellent understanding of property prices in her ow
 * A section to input a given house data, hit the button and get a clear
 message that informs the predicted sale price for that particular house.
 
-### Page 4: ML: Product Sale Price
+### Page 4: ML: House Sale Price
 
 * Displays the comparison between predicted and actual values for the training and test sets.
 * Pipeline performance.
