@@ -18,7 +18,7 @@ def quick_project_summary_page():
     ## Dataset Description
 
     The dataset contains housing information from Ames, Iowa, including:
-    - 79 explanatory variables (house features)
+    - Explanatory variables which are the house features
     - Target variable: `SalePrice`
 
     The data is split into:
@@ -26,12 +26,12 @@ def quick_project_summary_page():
     - `inherited_houses.csv` — attributes for the four inherited houses
 
     ---
+                
+    ## Business Requirements 
 
-    ## Business Requirements
+    **Requirement 1:** The client is interested in discovering how the house attributes correlate with the sale price. Therefore, the client expects data visualisations of the correlated variables against the sale price to show that.
 
-    **Requirement 1:** Identify which house features are most correlated with sale price.
-
-    **Requirement 2:** Build a prediction model to estimate the sale price of:
-    - The four inherited houses
-    - Any new house in Ames, based on user input
+    **Requirement 2:** The client is interested in predicting the house sale price from her four inherited houses and any other house in Ames, Iowa.
     """)
+
+# Buisness requirements copied from README.md
