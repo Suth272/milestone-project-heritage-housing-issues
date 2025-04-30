@@ -111,11 +111,26 @@ Although your friend has an excellent understanding of property prices in her ow
 
 ### Page 1: Quick Project Summary
 
+* Describe project data set
+* State buisness requirements
+
 ### Page 2: Sale Price Study
+
+* State Buisness requirement 1
+* Display the most correlated house features to the sale price of the house.
+* It helps the user make sense of what features matter most in the Ames market, which is especially important since the user is not familiar with local pricing patterns.
 
 ### Page 3: House Sale Price UI
 
+* State buisness requirement 2
+* Table of the attributes in their respective predicted sale price for the four inherited houses.
+* A section to input a given house data, hit the button and get a clear
+message that informs the predicted sale price for that particular house.
+
 ### Page 4: ML: Product Sale Price
+
+* Displays the comparison between predicted and actual values for the training and test sets.
+* Pipeline performance.
 
 ## Unfixed Bugs
 
