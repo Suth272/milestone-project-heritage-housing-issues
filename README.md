@@ -119,6 +119,7 @@ Although your friend has an excellent understanding of property prices in her ow
 * State Buisness requirement 1
 * Display the most correlated house features to the sale price of the house.
 * It helps the user make sense of what features matter most in the Ames market, which is especially important since the user is not familiar with local pricing patterns.
+* Has check-box feature to hide and show individual plots showing the house sale prices for the top correlated variables.
 
 ### Page 3: House Sale Price UI
 
